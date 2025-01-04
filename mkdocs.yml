@@ -30,11 +30,6 @@ theme:
 nav:
   - 主页: index.md
 
-plugins:
-  - mermaid2:
-      arguments:
-        theme: light
-
 markdown_extensions:
   # 支持个性化定制
   # Reference: https://squidfunk.github.io/mkdocs-material/reference/
