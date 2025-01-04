@@ -1,17 +1,17 @@
-site_name: SITE_NAME
+site_name: Dueitt_Jesse
 theme: 
   name: material
   icon:
     logo: material/library
   palette:
     - scheme: default # 日间模式
-      primary: deep purple # 上方的
+      primary: teal # 上方的
       accent: deep orange # 链接等可交互元件的高亮色
       toggle:
         icon: material/weather-night # 图标
         name: 切换至夜间模式 # 鼠标悬浮提示
     - scheme: slate # 夜间模式
-      primary: deep purple
+      primary: teal
       accent: deep orange
       toggle:
         icon: material/weather-sunny
@@ -63,15 +63,12 @@ extra_css:
 extra:
   homepage: HOMEPAGE 
   social: # icons
-    - icon: fontawesome/brands/bilibili
-      link: YOUR_BILIBILI_LINK
-      name: Bilibili | YOUR_NAME # 鼠标悬浮提示
     - icon: fontawesome/brands/github
-      link: YOUR_GITHUB_LINK
-      name: GitHub | YOUR_NAME 
+      link: https://github.com/JesseHaoTian/
+      name: GitHub | JesseHaoTian 
     - icon: simple/githubactions
-      link: THIS_REPO_ACTION
+      link: https://github.com/JesseHaoTian/HTBlog/actions
       name: GitHub Actions
 
 ## [bottom-left corner]
-copyright: Copyright &copy; 2023-现在 YOUR_NAME # 左下角的版权声明
+copyright: Copyright &copy; 2025-现在 JesseHT # 左下角的版权声明
