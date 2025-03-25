@@ -2,7 +2,7 @@ site_name: Dueitt_Jesse
 theme: 
   name: material
   icon:
-    logo: ocean
+    logo: material/water
   palette:
     - scheme: default # 日间模式
       primary: teal # 上方的
