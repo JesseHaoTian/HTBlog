@@ -17,6 +17,9 @@ theme:
         icon: material/weather-sunny
         name: 切换至日间模式
 
+  extra_css:
+  - mkdocs/css/extra.css
+
   features:
     - navigation.tabs
     - navigation.top
