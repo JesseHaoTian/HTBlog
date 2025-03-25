@@ -5,7 +5,7 @@ theme:
     logo: material-water
   palette:
     - scheme: default # 日间模式
-      primary: custom # 上方的颜色
+      primary: pink # 上方的颜色
       accent: deep orange # 链接等可交互元件的高亮色
       toggle:
         icon: material/weather-night # 图标
@@ -33,7 +33,7 @@ theme:
 nav:
   - 主页: 
     - index.md
-      - 测试文档: 测试文档.md
+    - 测试文档: 测试文档.md
     
 
 markdown_extensions:
