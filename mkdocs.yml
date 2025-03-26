@@ -2,7 +2,7 @@ site_name: Dueitt_Jesse
 theme: 
   name: material
   icon:
-    logo: material-water
+    logo: material/water
   palette:
     - scheme: default # 日间模式
       primary: pink # 上方的颜色
