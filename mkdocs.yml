@@ -71,7 +71,7 @@ extra_css:
   - _mkdocs/_css/no-footer.css # 不使用底部的翻页
     
 extra:
-  homepage: index.md
+  homepage: https://jesseht.fun
   social: # icons
     - icon: fontawesome/brands/github
       link: https://github.com/JesseHaoTian/
