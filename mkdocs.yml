@@ -31,11 +31,11 @@ nav:
   - 实验方法:
     - 1Experiment_Methods/index.md
     - 运行监测:
-      - 三氮: 1N.md
+      - 三氮: 1Experiment_Methods/1LongTermOperation/1N.md
   - 机器学习:
     - 2Mechine_Learning/index.md
   - 主页:
-    - 1Index.md
+    - index.md
     - 关于我: 2About_Me.md
     - 联系方式: 3How_to_Connect.md
     - 友情链接: 4My_Friends.md
