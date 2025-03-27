@@ -38,7 +38,6 @@ nav:
     - index.md
     - 关于我: 2About_Me.md
     - 联系方式: 3How_to_Connect.md
-    - 友情链接: 4My_Friends.md
 
 markdown_extensions:
   # 支持个性化定制
