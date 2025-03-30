@@ -32,6 +32,7 @@ nav:
     - 1Experiment_Methods/index.md
     - 运行监测:
       - 三氮: 1Experiment_Methods/1LongTermOperation/1N.md
+    - 电化学工作站: 1Experiment_Methods/Electrochemical_Workstation/Electrochemical_Workstation.md
   - 机器学习:
     - 2Mechine_Learning/index.md
   - 分子视界:
@@ -44,7 +45,7 @@ nav:
       - 关停启动与维修: 4OS_and_Server/1Personal_Server/1ServSSM/Serv_Shutdown_Startup_Maintenance.md
   - 主页:
     - index.md
-    - 关于我: 2About_Me.md
+    - 个人简介: 2About_Me.md
     - 联系方式: 3How_to_Connect.md
 
 markdown_extensions:
@@ -76,6 +77,8 @@ markdown_extensions:
   - md_in_html
   # Footnotes
   - footnotes
+  # Image
+  - pymdownx.blocks.caption
 
 
 extra_css:
