@@ -34,6 +34,14 @@ nav:
       - 三氮: 1Experiment_Methods/1LongTermOperation/1N.md
   - 机器学习:
     - 2Mechine_Learning/index.md
+  - 分子视界:
+    - 3Molecular_Horizon/index.md
+    - 分子对接:
+      - 操作步骤: 3Molecular_Horizon/1Molecular_Docking/1Docking_Operation/111.md
+  - 智链升级:
+    - 4OS_and_Server/index.md
+    - 个人服务器:
+      - 关停启动与维修: 4OS_and_Server/1Personal_Server/1ServSSM/Serv_Shutdown_Startup_Maintenance.md
   - 主页:
     - index.md
     - 关于我: 2About_Me.md
@@ -84,4 +92,4 @@ extra:
       name: GitHub Actions
 
 ## [bottom-left corner]
-copyright: Copyright &copy; 2025-现在 JesseHT # 左下角的版权声明
+copyright: Copyright &copy; 2025-现在 Dueitt_Jesse # 左下角的版权声明
