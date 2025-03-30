@@ -5,7 +5,7 @@
 电化学工作站共三条（组）线，分别为电源线、数据线和导线，分别连接到电源、电脑和待测反应器。
 
 <figure markdown="span">
-  ![电化学工作站背面](1Experiment_Methods/Electrochemical_Workstation/Electrochemical_Workstation_Back.png)
+  ![电化学工作站背面](./Electrochemical_Workstation_Back.png)
   <figcaption>Image caption</figcaption>
 </figure>
 
@@ -16,7 +16,7 @@
 其中，参比电极通常由反应器正负极以外的电极来充当。
 
 <figure markdown="span">
-  ![电化学工作站正面](1Experiment_Methods/Electrochemical_Workstation/Electrochemical_Workstation_Wiring.png)
+  ![电化学工作站正面](./Electrochemical_Workstation_Wiring.png)
   <figcaption>Image caption</figcaption>
 </figure>
 
@@ -25,7 +25,7 @@
     导线连接过程中，应当关掉反应器原有电源，并关掉搅拌器等，减少易在溶液体系产生扰动的因素。
 
 <figure markdown="span">
-  ![电化学工作站正面](1Experiment_Methods/Electrochemical_Workstation/Electrochemical_Workstation_Front.png)
+  ![电化学工作站正面](./Electrochemical_Workstation_Front.png)
   <figcaption>Image caption</figcaption>
 </figure>
 
@@ -51,7 +51,7 @@
 
 蓝色参数应随实际需要改动，红色参数似乎不怎么改动，扫描速度和精度两个参数应当详细调整。其中，扫描次数似乎将扫描“一圈”记为两次。
 
-![CV 参数](1Experiment_Methods/Electrochemical_Workstation/Electrochemical_Workstation_CV_Parameters.png){align = right}
+![CV 参数](./Electrochemical_Workstation_CV_Parameters.png){align = right}
 
 观测结果
 
