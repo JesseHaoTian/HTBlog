@@ -6,7 +6,7 @@
 
 <figure markdown="span">
   ![电化学工作站背面](./Electrochemical_Workstation_Back.png)
-  <figcaption>Image caption</figcaption>
+  <figcaption>电化学工作站背面</figcaption>
 </figure>
 
 - 绿色保护套导线为工作电极
@@ -16,8 +16,8 @@
 其中，参比电极通常由反应器正负极以外的电极来充当。
 
 <figure markdown="span">
-  ![电化学工作站正面](./Electrochemical_Workstation_Wiring.png)
-  <figcaption>Image caption</figcaption>
+  ![电化学工作站接线](./Electrochemical_Workstation_Wiring.png)
+  <figcaption>电化学工作站接线</figcaption>
 </figure>
 
 !!! danger "导线连接"
@@ -26,7 +26,7 @@
 
 <figure markdown="span">
   ![电化学工作站正面](./Electrochemical_Workstation_Front.png)
-  <figcaption>Image caption</figcaption>
+  <figcaption>电化学工作站正面</figcaption>
 </figure>
 
 接线完成后，应当先启动电化学工作站，再从电脑上打开软件。按照如下路径进行硬件检测，听到“titak”声即为正常。
