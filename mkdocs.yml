@@ -33,6 +33,7 @@ nav:
     - 运行监测:
       - 三氮: 1Experiment_Methods/1LongTermOperation/1N.md
     - 电化学工作站: 1Experiment_Methods/Electrochemical_Workstation/Electrochemical_Workstation.md
+    - 离子色谱: 1Experiment_Methods/Ion_Chromatography/Ion_Chromatography.md
   - 机器学习:
     - 2Mechine_Learning/index.md
   - 分子视界:
