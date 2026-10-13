@@ -57,6 +57,11 @@ markdown_extensions:
   # Admonitions
   - admonition
   - pymdownx.details
+  - pymdownx.superfences:
+    custom_fences:
+      - name: mermaid
+        class: mermaid
+        format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.superfences
   # Icons, Emojis
   - attr_list
@@ -64,13 +69,16 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   # Formatting: Highlight, Sub & Keyboard Keys.
+  - pymdownx.highlight:
+      auto_title: true
+      anchor_linenums: true
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
   - pymdownx.critic
   - pymdownx.caret
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
-  # attr_list
-  - markdown.extensions.attr_list
   # List
   - def_list
   - pymdownx.tasklist:
