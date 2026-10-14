@@ -12,7 +12,7 @@ rclone lsd "serv.jesseht.fun:" -vv
 
 报错：
 
-```
+```text
 tls: failed to verify certificate
 x509: certificate has expired or is not yet valid
 ```
@@ -21,7 +21,7 @@ x509: certificate has expired or is not yet valid
 
 2. 临时跳过证书测试
 
-```
+```cmd
 rclone lsd "serv.jesseht.fun:" -vv --no-check-certificate
 ```
 
@@ -43,3 +43,10 @@ Default rclone options
 改成：
 --fast-list --no-check-certificate
 点击 OK，完全退出 Rclone Browser（包括系统托盘），然后重新启动。
+
+!!! danger "安全提醒"
+    `--no-check-certificate` 仅适用于临时排查。
+
+    该参数会关闭 TLS 证书验证，使连接无法可靠地验证服务器身份，存在中间人攻击风险。
+    
+    修复服务器 HTTPS 证书后，应立即移除此参数。
