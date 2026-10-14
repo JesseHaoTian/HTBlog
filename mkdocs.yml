@@ -44,7 +44,7 @@ nav:
     - 4OS_and_Server/index.md
     - 个人服务器:
       - 关停启动与维修: 4OS_and_Server/1Personal_Server/1ServSSM/Serv_Shutdown_Startup_Maintenance.md
-      - rclone 网盘临时使用: HTBlog/docs/4OS_and_Server/1Personal_Server/2NetDiskRcloneFix/rclone网盘故障排查与临时使用.md
+      - rclone 网盘临时使用: 4OS_and_Server/1Personal_Server/2NetDiskRcloneFix/rclone网盘故障排查与临时使用.md
       - MatePad11刷入GooglePlay: 4OS_and_Server/2PatePad_11/MatePad11_BL_Root_GMS.md
   - 主页:
     - index.md
