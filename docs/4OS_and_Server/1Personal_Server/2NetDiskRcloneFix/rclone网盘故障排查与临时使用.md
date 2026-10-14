@@ -6,7 +6,7 @@
 
 1. 命令行测试网盘
 
-```cmd
+```bat
 rclone lsd "serv.jesseht.fun:" -vv
 ```
 
@@ -21,27 +21,33 @@ x509: certificate has expired or is not yet valid
 
 2. 临时跳过证书测试
 
-```cmd
+```bat
 rclone lsd "serv.jesseht.fun:" -vv --no-check-certificate
 ```
 
 成功列出网盘目录，证明：
+
 - rclone 配置正确；
+
 - WebDAV 地址正确；
+
 - 账号密码有效；
+
 - Nextcloud 服务正常；
+
 - 唯一问题是服务器证书。
 
 # 解决
 1. 临时设置 Rclone Browser
-打开：
-Rclone Browser → Preferences → General
-在最下面的：
-Default rclone options
-将原来的：
---fast-list
-改成：
---fast-list --no-check-certificate
+   
+打开：Rclone Browser → Preferences → General
+
+Default rclone options:
+
+将原来的：``--fast-list``
+
+改成：``--fast-list --no-check-certificate``
+
 点击 OK，完全退出 Rclone Browser（包括系统托盘），然后重新启动。
 
 !!! danger "安全提醒"
